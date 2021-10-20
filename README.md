@@ -1,0 +1,1 @@
+# psevda-class
