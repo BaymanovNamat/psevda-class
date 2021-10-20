@@ -1,0 +1,47 @@
+a {
+  color: green;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  font-size: 2rem;
+}
+
+a:hover {
+  background-color: blue;
+color: green;
+}
+
+
+a:active {
+  background-color: purple;
+  color: yellow;
+}
+
+
+li:nth-of-type(even) {
+  background-color: red;
+}
+li:nth-of-type(odd) {
+  background-color: green;
+}
+
+li:first-of-type {
+  font-size: 25px;
+}
+
+
+li:last-of-type {
+  font-size: 25px;
+}
+
+li:nth-of-type(3n-0) {
+  font-style: italic;
+}
+
+li:nth-of-type(4n-0) {
+  text-decoration: line-through;
+}
